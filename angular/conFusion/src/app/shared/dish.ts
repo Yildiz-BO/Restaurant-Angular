@@ -1,3 +1,4 @@
+
 export class Dish {
     id: string;
     name: string;
@@ -7,4 +8,12 @@ export class Dish {
     label: string;
     price: string;
     description: string;
+    comments: {
+        rating: Int16Array;
+        comment: string;
+        author: string;
+        date: string;
+    
+    };
+
 }
